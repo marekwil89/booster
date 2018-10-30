@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200,300,400,500,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&subset=latin-ext');
+*{
+  // font-family: 'IBM Plex Mono', monospace;
+  // font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 300;
+  line-height: auto;
+  margin: 0;
+  z-index: 99 !important;
+}
+
+button, p, span{
+  z-index: 99 !important;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300;
+  margin: 0;
+  color: #0b1033;
+}
+
+h2{
+  font-size: 48px;
+  font-weight: 500;
+}
+
+h3{
+  // color: #97ccfe;
+  color: #fa3f58;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h4{
+  color: #0b1033;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h5{
+  font-size: 18px;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #fa3f58;
+  font-weight: 500;
+}
+
+h6{
+  text-transform: uppercase;  
+  font-size: 14px;
+  font-weight: 700;
+  color: #5A6371;
+}
+
+p, li{
+  font-size: 15px;
+  line-height: 28px;
+  color: #5A6371;
+  font-weight: 500;
+
+  &.promoted{
+    color: #fa3f58;
+  }
+}
+
+ul{
+  margin: 10px 0;
+
+  li{
+    margin-left: 20px;
+    font-size: 15px;
+    // line-height: 28px;
+    color: #5A6371;
+    font-weight: 500;
+  }
+}
+
+span{
+  &.awarded{
+    display: block;
+    text-transform: uppercase;  
+    font-size: 14px;
+    font-weight: 700;
+    color: #5A6371;
+  }
+}
+
+a{
+  color: #5A6371;
+  text-decoration: none;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
+.white-color{
+  color: #ffffff;
+}
+
+// box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11)

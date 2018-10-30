@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1300px;
+  margin: 0 auto;
+
+  @media(max-width: 1330px){
+    width: 100%;
+  }
+}
+
+.el-carousel-item{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-main-color{
+  background: rgba(#e05369, 0.7);
+}
+
+.clear{
+  clear: both;
+}
+

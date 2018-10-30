@@ -1,0 +1,51 @@
+.category{
+  margin: 5px 10px 5px 0;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  
+  &.category-makeup{
+    background: #31d2b4;
+  }
+  
+  &.category-hairdresser{
+    background: #f76165;
+  }
+  
+  &.category-cosmetology{
+    background: #6acbe5;
+  }
+}
+
+.el-checkbox-button{
+  &.category-makeup{
+    &.is-checked{
+      .el-checkbox-button__inner{
+        border: 1px solid #31d2b4;
+        background: #31d2b4;
+        border-left-color: #31d2b4 !important;
+      }
+    }
+  }
+
+  &.category-hairdresser{
+    &.is-checked{
+      .el-checkbox-button__inner{
+        border: 1px solid #f76165;
+        background: #f76165;
+        border-left-color: #f76165 !important;
+      }
+    }
+  }
+
+  &.category-cosmetology{
+    &.is-checked{
+      .el-checkbox-button__inner{
+        border: 1px solid #6acbe5;
+        background: #6acbe5;
+        border-left-color: #6acbe5 !important;
+      }
+    }
+  }
+}
